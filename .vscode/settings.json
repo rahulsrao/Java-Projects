@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Java/File",
         "Java/DoublyLinkedList",
-        "Java/File"
+        "Java/SinglyLinkedList"
     ]
 }
