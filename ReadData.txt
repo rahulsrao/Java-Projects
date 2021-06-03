@@ -1,1 +1,2 @@
-Name:Rahul Id:St1 Phone:123456 Name:Prashanth Id:St2 Phone:25978 
+Name:Rahul Id:St1 Phone:123456 
+Name:Prashanth Id:St2 Phone:25978 
