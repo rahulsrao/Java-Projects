@@ -10,8 +10,6 @@ public class StudentDetail {
 
     public static void main(String args[]) throws IOException
     {
-        LinkedList<Integer> List= new LinkedList<Integer>();
-
         try 
         {
           File myfile = new File("StudentData.txt");
