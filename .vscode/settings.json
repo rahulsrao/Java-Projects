@@ -3,6 +3,7 @@
         "Java/SinglyLinkedList",
         "Java/File",
         "Java/DoublyLinkedList",
-        "Java/Array"
+        "Java/Array",
+        "Java/Recursion"
     ]
 }
