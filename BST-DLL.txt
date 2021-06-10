@@ -1,0 +1,17 @@
+Convert Binary search tree into Dobule linked list 
+
+Assumption :
+In DLL we have one --Next Node
+	       one --Prevous Node
+
+In BST we have one--Left node
+	       one--Right Node
+
+We need to assume --Previous node as Left
+	  	  --Next node as Right Node
+
+
+	function--  void cvrtBSTtoDLL(node Node){
+		}
+
+
