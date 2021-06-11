@@ -12,24 +12,29 @@ public class Binarytodll {
             this.right = null;    
         }    
     }    
-    public Node root;    
+    public Node root;   
     Node head, tail = null;
-    public void converToDLL(Node node) 
+    public void converToDLL(Node node)
     {            
-        if(node == null)    
-        return;    
+        if(node == null)
+        {
+            return;
+        }
+
         converToDLL(node.left);    
+        
         if(head == null) 
         {    
             head = tail = node;    
         }
+        
         else 
         {    
             tail.right = node;    
             node.left = tail;    
             tail = node;    
         }        
-        converToDLL(node.right);    
+        converToDLL(node.right);   
     }    
         
     public void display() 
@@ -41,6 +46,7 @@ public class Binarytodll {
             return;    
         }    
         System.out.println("Double Linked list: ");    
+        
         while(current != null) 
         {    
             System.out.print(current.data + " ");    
@@ -49,9 +55,11 @@ public class Binarytodll {
         System.out.println();    
     }    
         
-    public static void main(String[] args) {    
+    public static void main(String[] args) 
+    {    
             
         Binarytodll bt = new Binarytodll();    
+        
         bt.root = new Node(10);    
         bt.root.left = new Node(8);    
         bt.root.right = new Node(12);    
@@ -59,7 +67,7 @@ public class Binarytodll {
         bt.root.left.right = new Node(9);    
         bt.root.right.left = new Node(14);    
         bt.root.right.right = new Node(15);    
-                
+
         bt.converToDLL(bt.root);    
         bt.display();    
     }    
