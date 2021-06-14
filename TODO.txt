@@ -1,9 +1,9 @@
 :::::::::::Task Given on 04/06/2021::::::::::::::::::::::::::::::::::::::
 
 1.Conver Binary Search tree in to Double Linked List
-    i.In static
-    ii.In Dynamic
-    iii.From Command line 
-2. In Post fix
-3.In to Pre fix 
-4.Search node and get the up coming tree Node details 
+    i.In static---Done
+    ii.In Dynamic--Done
+    iii.From Command line--Done 
+2. In Post fix--Done
+3.In to Pre fix --Done
+4.Search node and get the up coming tree Node details --Done
