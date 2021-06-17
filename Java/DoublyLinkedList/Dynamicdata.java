@@ -135,21 +135,22 @@ public class Dynamicdata {
             DLL.insert(root,array[j]);
         }
 
-        System.out.println("Please enter type of order i.e Inorder(I)/Preorder(P)/Postorder(PO) :");
+        System.out.println("Please enter type of order i.e Inorder(In)/Preorder(Pr)/Postorder(Po) :");
         String Order = scanner.next();
 
-        if(Order=="I")
+        System.out.print(Order);
+        if(Order.equals("In"))
         {
             System.out.println("\n Traversing tree in order");
             DLL.InOrder(root);
         }
 
-        else if(Order=="P")
+        else if(Order.equals("Pr"))
         {
             System.out.println("\n Traversing tree in Pre-order");
             DLL.PreOrder(root); 
         }
-        
+    
         else
         {
             System.out.println("\n Traversing tree in Post-order");
